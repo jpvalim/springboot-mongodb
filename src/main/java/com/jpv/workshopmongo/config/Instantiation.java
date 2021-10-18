@@ -29,7 +29,6 @@ public class Instantiation implements CommandLineRunner{
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		sdf.setTimeZone(TimeZone.getTimeZone("GMT"));
 				
-		
 		userRepository.deleteAll();
 		postRepository.deleteAll();
 		
